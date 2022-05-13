@@ -1,0 +1,20 @@
+.container {
+  &__message {
+    padding: 15px;
+    width: 600px;
+  }
+
+  .error {
+    background-color: crimson;
+    color: white;
+  }
+
+  .success {
+    background-color: aquamarine;
+    color: black;
+  }
+
+  .tip {
+    background-color: aliceblue;
+  }
+}

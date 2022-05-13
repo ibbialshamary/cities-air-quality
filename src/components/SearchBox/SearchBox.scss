@@ -1,0 +1,43 @@
+.searchbar-input {
+  padding: 10px;
+  padding-left: 45px;
+  background: url("../../assets/search-interface-symbol.png") no-repeat scroll
+    10px;
+  background-size: 20px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.container {
+  &__search-box {
+    background-color: white;
+    border-radius: 10px;
+    width: 350px;
+  }
+
+  &__suggestions {
+    max-height: 150px;
+    overflow-y: scroll;
+  }
+
+  &__city-aq {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+
+    & > div {
+      flex: 40%;
+      margin: 20px;
+    }
+  }
+}
+.suggestions {
+  padding: 5px 10px 5px 10px;
+
+  &:hover {
+    background-color: rgb(242, 242, 242);
+    cursor: pointer;
+  }
+}
